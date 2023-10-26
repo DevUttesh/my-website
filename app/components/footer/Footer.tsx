@@ -1,4 +1,4 @@
-import React from "react";
+import { EnvelopeIcon } from "@heroicons/react/24/outline";
 
 const Footer = () => {
   return (
@@ -9,7 +9,9 @@ const Footer = () => {
         fuga maxime saepe commodi placeat.
       </p>
       <div className="flex  gap-3" >
-        <div className="bg-green-900 rounded-full p-5" ></div>
+        <div className="bg-green-900 rounded-full p-5" >
+          <EnvelopeIcon className="text-white" />
+        </div>
         <div className="bg-green-900 rounded-full p-5" ></div>
         <div className="bg-green-900 rounded-full p-5" ></div>
         <div className="bg-green-900 rounded-full p-5" ></div>
