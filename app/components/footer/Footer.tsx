@@ -9,13 +9,21 @@ const Footer = () => {
         fuga maxime saepe commodi placeat.
       </p>
       <div className="flex  gap-3" >
-        <div className="bg-green-900 rounded-full p-5" >
-          <EnvelopeIcon className="text-white" />
+        <div className="bg-green-900 rounded-full  p-3" >
+          <EnvelopeIcon className="text-white w-4 h-4 " />
         </div>
-        <div className="bg-green-900 rounded-full p-5" ></div>
-        <div className="bg-green-900 rounded-full p-5" ></div>
-        <div className="bg-green-900 rounded-full p-5" ></div>
-        <div className="bg-green-900 rounded-full p-5" ></div>
+        <div className="bg-green-900 rounded-full  p-3" >
+          <EnvelopeIcon className="text-white w-4 h-4 " />
+        </div>
+        <div className="bg-green-900 rounded-full  p-3" >
+          <EnvelopeIcon className="text-white w-4 h-4 " />
+        </div>
+        <div className="bg-green-900 rounded-full  p-3" >
+          <EnvelopeIcon className="text-white w-4 h-4 " />
+        </div>
+        <div className="bg-green-900 rounded-full  p-3" >
+          <EnvelopeIcon className="text-white w-4 h-4 " />
+        </div>
       </div>
       <small>© Copyright <b>Suthar Uttesh</b>. All Rights Reserved <br /> Designed by  Uttesh</small>
     </footer>
